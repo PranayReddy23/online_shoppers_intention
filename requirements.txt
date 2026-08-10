@@ -1,8 +1,11 @@
+matplotlib
+seaborn
 streamlit
-scikit-learn
+scikit-learn==1.6.1
 pandas
 numpy
-xgboost
-lightgbm
-joblib
+xgboost==3.3.0
+lightgbm==4.6.0
+joblib==1.5.3
 plotly
+nbformat
