@@ -9,8 +9,8 @@ st.set_page_config(page_title="Online Shopper Purchase Predictor", layout="wide"
 
 @st.cache_resource
 def load_artifacts():
-    model = joblib.load("outputs/best_model.pkl")
-    preprocessor = joblib.load("outputs/preprocessor.pkl")
+    model = joblib.load("best_model.pkl")
+    preprocessor = joblib.load("preprocessor.pkl")
     return model, preprocessor
 
 model, preprocessor = load_artifacts()
